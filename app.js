@@ -16,3 +16,9 @@
 
 gsap.from('.li', { duration: 1, opacity: 0, delay: 2, stagger: .5 })
 gsap.from('.hero>a', { duration: 1, opacity: 0, delay: 4 })
+
+
+gsap.to('banderolle', {
+    scrollTrigger: "banderolle",
+    opacity: 1
+})
